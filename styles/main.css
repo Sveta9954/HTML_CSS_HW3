@@ -1,0 +1,21 @@
+button:nth-child(n) {
+	height: 30px;
+    width: 120px;
+	color: white;
+	border: 2px solid black;
+	font-size: 20px;
+}
+
+button:first-child  {
+	background: #9ACD32;
+}
+
+button:nth-child(2) {
+	background: #F08080;
+}
+
+button:after {
+	content: '';
+	border: 20px solid transparent; 
+	border-left: 20px solid green;
+}
